@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos Tacos 👌</title>
+</head>
+<body>
+    <header>
+        <img src="Img/logoTaqueriatrs.png" alt="logo" width="150">
+        <nav>
+            <ul>
+                <!-- Aún no tengo enlaces, -->
+                <a href="#"><li>Inicio</li></a>
+                <a href="#"><li>Acerca de</li></a>
+                <a href="#"><li>Menú</li></a>
+                <a href="#"><li>Contacto</li></a>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <section>
+            <h1>🌮 TACOS TACOS 🌮</h1>
+            <H2>Acerca de nosotros</H2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nulla atque dolorum nesciunt aspernatur ab similique! Distinctio necessitatibus voluptatem accusamus quidem optio in repudiandae fuga, explicabo aliquam incidunt aliquid natus illo obcaecati recusandae ipsam, soluta exercitationem vero debitis. Sapiente ut aliquam necessitatibus voluptate et fuga voluptas eaque totam, recusandae soluta nam, unde distinctio, harum rem laudantium cupiditate nulla! Culpa corporis deserunt quisquam! Repellendus vero dolorum iure, facilis officiis nihil et esse ex similique illo fuga fugiat repellat quam consequuntur illum reiciendis commodi provident, sequi, nesciunt dolores. Nobis dolorum eveniet ullam soluta eaque, a quo, earum necessitatibus blanditiis fugiat cumque temporibus?</p>
+            <iframe width="200" height="150" src="https://www.youtube.com/embed/Bm-7Ja_24OI?si=qfYGwUrF4xAfyfIo" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><hr>
+        </section>
+        <section>
+            <h2>Menú</h2>
+            <h3>Tacos</h3>
+            <!-- lista ordenada -->
+            <ol>
+                <li>Suadero.................$15.00</li>
+                <li>Tripa...................$15.00</li>
+                <li>Longaniza...............$10.00</li>
+                <li>Bistek
+                    <!-- lista desordenada -->
+                    <ul>
+                        <li>Res..................$10.00</li>
+                        <li>Cerdo................$15.00</li>
+                    </ul>
+                </li>
+                <li>Chuleta.................$10.00</li>                
+            </ol>
+            <h3>Especiales</h3>
+            <!-- lista descriptiva -->
+            <dl>
+                <dt>Alambre</dt>
+                <dd>Cualquier combinación.................$20.00</dd>
+                <dt>Combinado</dt>
+                <dd>Cualquier combinación.................$20.00</dd>
+                <dt>Gringa</dt>
+                <dd>Cualquier Combinación.............$20.00</dd>
+            </dl>
+            <h3>Ordena</h3>
+            <form action="" method="" name="menu">
+                Nombre: <input type="text" name="nombre" placeholder="Ejemplo: Juan" minlength="3" maxlength="20" required> Apellido: <input type="text" name="apellido" placeholder="Ejemplo: Pérez" minlength="3" maxlength="15"><br>
+                Envío o recolección: <br>
+                <input type="radio" name="envio" value="Si">
+                <input type="radio" name="envio" value="No"><br>                
+                Dirección: <input type="text" name="direccion" placeholder="calle,num,alcaldía,cp" size="80"><br>                
+                Teléfono: <input type="tel" minlength="10" maxlength="10" value="55" name="telefono">
+                Correo: <input type="email" name="correo" placeholder="correo@dominio.com"><br><br>
+                Depósito (anexa comprobante): <input type="file" name="comprobante"><br><br>
+
+                Orden 1 <br>
+                <select name="orden1">
+                    <option value="#">Selecciona</option>
+                    <option value="suadero">Suadero</option>
+                    <option value="tripa">Tripa</option>
+                    <option value="longaniza">Longaniza</option>
+                    <option value="bistek Res">Bistek Res</option>
+                    <option value="gistek Cerdo">Bistek Cerdo</option>
+                    <option value="chuleta">Chuleta</option>
+                    <option value="alambre">Alambre</option>
+                    <option value="combinado">Combinado</option>
+                    <option value="gringa">Gringa</option>                    
+                </select>
+                Número: <input type="number" min="1" max="50"><br>
+                <input type="checkbox" name="limones" value="si">Limones
+                <input type="checkbox" name="verdura" value="si">Verdura
+                <input type="checkbox" name="salsaVerde" value="si">Salsa Verde
+                <input type="checkbox" name="salsaRoja" value="si">Salsa Roja <br>
+                Orden 2 <br>
+                <select name="orden2">
+                    <option value="#">Selecciona</option>
+                    <option value="suadero">Suadero</option>
+                    <option value="tripa">Tripa</option>
+                    <option value="longaniza">Longaniza</option>
+                    <option value="bistek Res">Bistek Res</option>
+                    <option value="gistek Cerdo">Bistek Cerdo</option>
+                    <option value="chuleta">Chuleta</option>
+                    <option value="alambre">Alambre</option>
+                    <option value="combinado">Combinado</option>
+                    <option value="gringa">Gringa</option>                    
+                </select>
+                Número: <input type="number" min="1" max="50"><br>
+                <input type="checkbox" name="limones" value="si">Limones
+                <input type="checkbox" name="verdura" value="si">Verdura
+                <input type="checkbox" name="salsaVerde" value="si">Salsa Verde
+                <input type="checkbox" name="salsaRoja" value="si">Salsa Roja <br>
+                Orden 3 <br>
+                <select name="orden3">
+                    <option value="#">Selecciona</option>
+                    <option value="suadero">Suadero</option>
+                    <option value="tripa">Tripa</option>
+                    <option value="longaniza">Longaniza</option>
+                    <option value="bistek Res">Bistek Res</option>
+                    <option value="gistek Cerdo">Bistek Cerdo</option>
+                    <option value="chuleta">Chuleta</option>
+                    <option value="alambre">Alambre</option>
+                    <option value="combinado">Combinado</option>
+                    <option value="gringa">Gringa</option>                    
+                </select>
+                Número: <input type="number" min="1" max="50"><br>
+                <input type="checkbox" name="limones" value="si">Limones
+                <input type="checkbox" name="verdura" value="si">Verdura
+                <input type="checkbox" name="salsaVerde" value="si">Salsa Verde
+                <input type="checkbox" name="salsaRoja" value="si">Salsa Roja <br>
+                Orden 4 <br>
+                <select name="orden4">
+                    <option value="#">Selecciona</option>
+                    <option value="suadero">Suadero</option>
+                    <option value="tripa">Tripa</option>
+                    <option value="longaniza">Longaniza</option>
+                    <option value="bistek Res">Bistek Res</option>
+                    <option value="gistek Cerdo">Bistek Cerdo</option>
+                    <option value="chuleta">Chuleta</option>
+                    <option value="alambre">Alambre</option>
+                    <option value="combinado">Combinado</option>
+                    <option value="gringa">Gringa</option>                    
+                </select>
+                Número: <input type="number" min="1" max="50"><br>
+                <input type="checkbox" name="limones" value="si">Limones
+                <input type="checkbox" name="verdura" value="si">Verdura
+                <input type="checkbox" name="salsaVerde" value="si">Salsa Verde
+                <input type="checkbox" name="salsaRoja" value="si">Salsa Roja <br>
+                <br><br>    
+
+                <input type="submit" value="Ordena 👍">
+                <input type="reset" value="Borrar 😥">
+            </form>
+        </section>
+        <article>
+
+        </article>
+        <aside>
+
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
